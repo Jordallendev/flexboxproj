@@ -1,0 +1,189 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    background: #1F2937;
+    justify-content: space-between;
+}
+ #logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    margin-left: 50px;
+    padding:10px;
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    font-size: 18px;
+    align-items: center;
+    margin-right:50px;
+} 
+.link1{
+    padding:5px;
+}
+
+.TopContent{
+    display:flex;
+    background:#1F2937;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.HeroMain{
+    flex-direction: column;
+    
+}
+.HeroMainText{
+    display:flex;
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    width: 300px;
+    
+}
+.HeroSub{
+    width:300px;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    flex-flow: row wrap;
+    font-size:18px;
+}
+.HeroImg{
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+    font-family: sans-serif;
+    align-items: center;
+}
+button{
+    background-color: #3882f6;
+    border-radius:12px;
+    color: #F9FAF8;
+}
+
+.InfoSection{
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    justify-content:flex-start;
+    align-items:center;
+    background-color: #F9FAF8;
+    
+}
+
+.InfoHead{
+    display:flex;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: sans-serif;
+    padding: 50px;
+}
+.InfoContent{
+    display: flex;
+    flex-direction: row;
+    
+    width:400px;
+    
+}
+.Img1, .Img2, .Img3, .Img4{
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.img{
+    display: flex;
+    height:50px;
+    width: 50px;
+    background:grey;
+    border:5px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.infoImgTxt{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.QuoteSection{
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    justify-content:center;
+    align-items:center;
+    background-color: #E5E7EB;
+    
+}
+.QuoteText{
+    display: flex;
+    width:500px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: italic;
+
+}
+.QuoteAuthor{
+    display:flex;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 400px;
+
+}
+
+.SignUp{
+    display:flex;
+    background-color: #F9FAF8;
+    height:250px;
+    justify-content: center;
+    align-items: center;
+}
+.SignUpContentBox{
+    display:flex;
+    background-color: #3882f6;
+    font-family: sans-serif;
+    font-size: 10px;
+    color:#F9FAF8;
+    padding: 40px;
+    width: 500px;
+    justify-content: space-between;
+
+}
+.SignUpTitle{
+    font-weight: bold;
+   font-size: 15px;
+   
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1F2937;
+}
+.footerContent{
+    font-family: sans-serif;
+    color:#F9FAF8;
+}
